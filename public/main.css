@@ -1,0 +1,23 @@
+.container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 4rem;
+}
+.container > h4 {
+    font-weight: 300;
+}
+.container > div {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.container > hr {
+    margin: 0;
+    border-top: 1px solid #ffc107;
+    opacity: 0.3;
+}
+.container > div p {
+    word-break: break-word;
+}
+button {
+    margin-top: 5px;
+}
