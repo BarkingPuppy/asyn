@@ -9,7 +9,7 @@ $(() => {
                     $("#list-result").html(`[No student data]`)
                 } else {
                     $.each(data, (id, name) => {
-                        $("#list-result").append(`"${htmlEncode(id)}":"${htmlEncode(name)}"<br>`)
+                        $("#list-result").append(`"${id}":"${name}"<br>`)
                     })
                 }
             }
