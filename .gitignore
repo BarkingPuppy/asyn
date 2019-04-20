@@ -74,3 +74,6 @@ typings/
 
 # nohup file
 nohup.out
+
+# VSCode Cache
+.ipynb_checkpoints/
