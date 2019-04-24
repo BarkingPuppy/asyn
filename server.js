@@ -12,7 +12,8 @@ var db = mysql.createConnection({
     host: "localhost",
     user: "winkyfac3",
     password: "eens",
-    database: "injection_test"
+    database: "injection_test",
+    multipleStatements: true
 })
 db.connect(err => {
     if (err) throw err
